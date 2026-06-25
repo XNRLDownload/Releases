@@ -1,27 +1,8 @@
 {
-  "version": "1.0.1",
+  "version": "1.0.0",
   "downloadUrl": "https://www.dropbox.com/scl/fi/q1v2624wb6gs9wu0o14f9/publish.zip?rlkey=dh8pwhhnqqkxumpbp3psxsb4a&st=l4ljz4pn&dl=1",
-  "changelog": "Massive optimization update with new gaming features, stability improvements, and UI enhancements.",
+  "changelog": "Initial release of XNRL Utility",
   "history": [
-    {
-      "version": "1.0.1",
-      "date": "2026-06-25",
-      "changes": [
-        "Added Advanced FPS Optimizer with intelligent background service management",
-        "New Network Optimizer to reduce latency and improve online gaming performance",
-        "Complete UI redesign with smoother animations and modern interface",
-        "Added Startup Manager for controlling launch applications",
-        "Introduced Real-Time Performance Monitor (CPU, GPU, RAM, Disk, Network)",
-        "Added Restore Point creation before applying optimizations",
-        "Improved BIOS Optimizer with additional safe optimization presets",
-        "Added One-Click Ultimate Gaming Mode",
-        "Faster process scanning with improved detection accuracy",
-        "Reduced application startup time by over 60%",
-        "Improved auto-updater reliability and download speeds",
-        "Fixed multiple crashes and memory leaks",
-        "General stability, security, and performance improvements"
-      ]
-    },
     {
       "version": "1.0.0",
       "date": "2026-06-25",
