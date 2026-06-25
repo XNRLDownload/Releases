@@ -1,16 +1,13 @@
 {
   "version": "1.0.0",
   "downloadUrl": "https://www.dropbox.com/scl/fi/q1v2624wb6gs9wu0o14f9/publish.zip?rlkey=dh8pwhhnqqkxumpbp3psxsb4a&st=l4ljz4pn&dl=1",
-  "changelog": "Initial release of XNRL Utility",
+  "changelog": "Pre release of XNRL Utility",
   "history": [
     {
-      "version": "1.0.0",
+      "version": "0.0.9",
       "date": "2026-06-25",
       "changes": [
-        "Initial release of XNRL Utility",
-        "Game Booster with process scanner",
-        "BIOS Optimizer",
-        "Auto-updater"
+        "TESTING PHASE"
       ]
     }
   ]
