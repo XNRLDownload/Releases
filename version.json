@@ -1,8 +1,38 @@
 {
-  "version": "1.0.0",
-  "downloadUrl": "https://www.dropbox.com/scl/fi/q1v2624wb6gs9wu0o14f9/publish.zip?rlkey=dh8pwhhnqqkxumpbp3psxsb4a&st=sggvvy9u&dl=1",
-  "changelog": "Initial release of XNRL Utility",
+  "version": "1.0.1",
+  "downloadUrl": "https://www.dropbox.com/scl/fi/q1v2624wb6gs9wu0o14f9/publish.zip?rlkey=dh8pwhhnqqkxumpbp3psxsb4a&st=cpg57nf4&dl=1",
+  "changelog": "Version 1.0.1 - Major bug fixes, UI improvements, new Apex features, and optimization enhancements.",
   "history": [
+    {
+      "version": "1.0.1",
+      "date": "2026-06-30",
+      "changes": [
+        "Fixed restore point error when attempting to create a restore point.",
+        "Fixed restore point error occurring after applying tweaks.",
+        "Fixed buttons displaying 'Upgrade to Premium' instead of 'Upgrade to Apex'.",
+        "Fixed Startup Boost progress not being counted correctly on the dashboard (0/4 Free, 0/21 Apex).",
+        "Fixed Server Booster save state not being preserved.",
+        "Fixed Apex and Extreme Profiles failing to apply.",
+        "Fixed Apex MSI Utility Tuner visual issues.",
+        "Fixed Apex Auto Affinity Tuner completion popup.",
+        "Improved the UI for Apex Auto Affinity Tuner.",
+        "Improved the UI for Apex MSI Utility Tuner.",
+        "Added Apex Boot Optimization system.",
+        "Added Apex Mode to Startup Boost.",
+        "Removed the Scheduled Debloat feature.",
+        "Fixed Startup Boost behavior and optimization process.",
+        "Fixed CPU Tuner not starting automatically on Windows startup.",
+        "Fixed remaining buttons displaying 'Upgrade to Premium' or 'Upgrade to Pro' instead of 'Upgrade to Apex'.",
+        "Added warning dialogs for tweaks that require extra caution.",
+        "Added warning icons and descriptions for applicable tweaks.",
+        "Added error codes to assist with debugging.",
+        "Added more revert tweak options.",
+        "Added a Revert Tweaks UI dialog.",
+        "Moved BIOS tweak application to the UI thread to prevent freezing.",
+        "Added a warning that Shader Cache will rebuild after deletion.",
+        "Added Roblox Error 268 fix."
+      ]
+    },
     {
       "version": "1.0.0",
       "date": "2026-06-27",
