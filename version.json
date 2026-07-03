@@ -48,5 +48,7 @@
                                         "Added advanced CPU and Windows optimizations"
                                     ]
                     }
-                ]
+                ],
+    "sha256":  "206fd51afb9c3382faf852c54409189ba82188da0a82eef0f32b341bbd256987",
+    "signature":  "gLHZmlvxwr+RCUeAothYkqU4PKnx2+Pd7aua8t6eoNBWcXR/QHcOZopEUWTXGztAyR+ZYjEnsUh04MFv/BS4OA=="
 }
