@@ -1,8 +1,45 @@
 {
-    "version": "1.0.1",
+    "version": "1.0.2",
     "downloadUrl": "https://github.com/XNRLDownload/Releases/releases/latest/download/publish.zip",
     "changelog": "Version 1.0.1 - Major bug fixes, UI improvements, new Apex features, and optimization enhancements.",
     "history": [
+        {
+            "version": "1.0.2",
+            "date": "2026-07-03",
+            "changes": [
+                "Enabled Spanish, Italian, French, and Portuguese language support (previously marked \"Soon\"), and added German and Russian — 7 languages total.",
+                "Fixed hundreds of missing or incomplete translations across every non-English language, including navigation, Game Booster, Server Booster, Startup Boost, Debloat, and the Priorities Tuner reference tables.",
+                "Added automatic detection of your Windows display language on first launch.",
+                "Added a restart-required notification bar after applying tweaks, with a one-click Restart button.",
+                "Added real Discord server-membership verification for Server Booster, with a direct Join Discord button.",
+                "Fixed the desktop shortcut prompt to reappear if the shortcut goes missing, and it now also adds a Start Menu entry.",
+                "Added a guided walkthrough tour for the Fixes tab.",
+                "Fixed authentication issues.",
+                "Fixed Power Plans Not Importing.",
+                "Reworked Apex Feature Priority Tuner",
+                "Updated Apex status and feature detection.",
+                "Fixed Server Booster failing to grant access.",
+                "Fixed Advanced Network Tweaks not working.",
+                "Fixed the Advanced Network tab's loading UI.",
+                "Improved the Upgrade to Apex UI.",
+                "Fixed Apex Network Tweaks.",
+                "Fixed switches (toggles) disappearing.",
+                "Improved the Apex Auto Set Affinity Tuner.",
+                "Added Launch Game Feature",
+                "Added More Games to XNRL App Library",
+                "More logic added to priorities tuner",
+                "Added a new Apex feature: Scheduler & IRQ Lab.",
+                "Added Scheduler and Timer tweaks for Apex.",
+                "Added GPU, USB, and Interrupts tools for Apex users.",
+                "Added Core-to-Core Latency Benchmarks.",
+                "Fixed Startup Boost tweaks not launching on Windows startup.",
+                "Fixed CPU Tuner not launching on Windows startup.",
+                "Fixed an issue causing random account bans.",
+                "Added an in-app tutorial and guide.",
+                "Embedded tutorial videos now redirect straight to YouTube.",
+                "Added a new Apex-specific Game Mode."
+            ]
+        },
         {
             "version": "1.0.1",
             "date": "2026-06-30",
@@ -49,6 +86,6 @@
             ]
         }
     ],
-    "sha256": "286fd51afb9c3382fa852c54462",
-    "signature": ""
+    "sha256": "206fd51afb9c3382faf852c54409189ba82188da0a82eef0f32b341bbd256987",
+    "signature": "gLHZmlvxwr+RCUeAothYkqU4PKnx2+Pd7aua8t6eoNBWcXR/QHcOZopEUWTXGztAyR+ZYjEnsUh04MFv/BS4OA=="
 }
