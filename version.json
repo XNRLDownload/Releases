@@ -1,7 +1,7 @@
 {
-    "version": "1.0.2",
+    "version": "1.0.1",
     "downloadUrl": "https://github.com/XNRLDownload/Releases/releases/latest/download/publish.zip",
-    "changelog": "Version 1.0.2 - Major bug fixes, UI improvements, new Apex features, and optimization enhancements.",
+    "changelog": "Version 1.0.1 - Version 1.0.2 had bugs, reverted to 1.0.1 while investigation continues",
     "history": [
         {
             "version": "1.0.2",
