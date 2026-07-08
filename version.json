@@ -6,10 +6,19 @@
     "changelog":  "Bug fixes for the issues introduced in 1.0.2.\nAdded Network Tuner.\nImproved workflow.\nAdded support for additional languages.",
     "history":  [
                     {
-                        "version":  "1.0.1",
+                        "version":  "1.0.3",
                         "date":  "2026-07-08",
                         "changes":  [
-                                        "Version 1.0.1 - Version 1.0.2 had bugs, reverted to 1.0.1 while investigation continues"
+    "Version 1.0.3 - Fixed the bugs introduced in version 1.0.2.",
+    "Added Network Tuner.",
+    "Improved workflow.",
+    "Added support for additional languages, including Polish and Turkish.",
+    "Improved overall performance.",
+    "Optimized RAM usage.",
+    "Optimized CPU usage.",
+    "Enhanced system responsiveness.",
+    "Reduced resource consumption.",
+    "Improved stability."
                                     ]
                     },
                     {
