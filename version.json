@@ -1,24 +1,47 @@
 {
-    "version":  "1.0.3",
+    "schemaVersion":  2,
+    "sequence":  1,
+    "issuedAt":  1785948023953,
+    "expiresAt":  1793724023958,
+    "channel":  "stable",
+    "keyId":  "release-p256-2026-01",
+    "version":  "1.0.4",
     "downloadUrl":  "https://github.com/XNRLDownload/Releases/releases/latest/download/publish.zip",
-    "sha256":  "708e688ed6c486675aa01343d1fd8af7a8dfddc9cc3b3f7d316c94ecd8054fcf",
-    "signature":  "8JpfVPoemJduzrCc0maEFKDSJsGkP3kXBbFtyl16cTgKE5+RHqIHwg45gLUkEob5OZKhYD6o+t1Tht9Qq3sGaA==",
-    "changelog":  "Bug fixes for the issues introduced in 1.0.2.\nAdded Network Tuner.\nImproved workflow.\nAdded support for additional languages.",
+    "sha256":  "e09ad9b7d7224aa1e4f46bfbb396e27fb076e266f7d65621f1f322c4a8d3e55e",
+    "signature":  "d/gpM1S6IFhUxcjph0JvELiN8PNXvA930pODJZyXsCJkxT7TBhLubbc8/VaLk3clmpgiujto7xpQgAf6/JqmYw==",
+    "signatureV2":  "ZUWoJ8oZGgaaA/55DCWWiYLjolfL8xU6MqRx0U9Cd628fGcmMsmS2AEXAEaEkVelAezdrf1Xram2ulozC7oxgg==",
+    "changelog":  "Comprehensive app rework with CPU Tuner overhaul, Game Compressor, Apex State stability, and advanced safety safeguards.",
     "history":  [
+                    {
+                        "version":  "1.0.4",
+                        "date":  "2026-08-05",
+                        "changes":  [
+                                        "Completely reworked the CPU Tuner with per-architecture controls and automatic unsupported row detection.",
+                                        "Added the new Game Compressor tool to optimize and shrink game file sizes without performance loss.",
+                                        "Expanded support for next-gen Intel and AMD processors with advanced power and cache policy tuning.",
+                                        "Introduced Windows 11 24H2 autonomous latency and performance tuning capabilities.",
+                                        "Resolved Apex State stability issues and enhanced startup persistence across all profiles.",
+                                        "Fixed add-ons, gift-code generation, and referral tracking in Rewards \u0026 Refer \u0026 Earn.",
+                                        "Improved GPU Overclocking auto-apply reliability on system startup.",
+                                        "Added new hardware safety safeguards, WHEA error protection, and atomic fail-safe recovery.",
+                                        "Refined overall system performance, memory utilization, and UI responsiveness.",
+                                        "Enhanced localization accuracy and notifications across all 9 supported languages."
+                                    ]
+                    },
                     {
                         "version":  "1.0.3",
                         "date":  "2026-07-08",
                         "changes":  [
-    "Version 1.0.3 - Fixed the bugs introduced in version 1.0.2.",
-    "Added Network Tuner.",
-    "Improved workflow.",
-    "Added support for additional languages, including Polish and Turkish.",
-    "Improved overall performance.",
-    "Optimized RAM usage.",
-    "Optimized CPU usage.",
-    "Enhanced system responsiveness.",
-    "Reduced resource consumption.",
-    "Improved stability."
+                                        "Version 1.0.3 - Fixed the bugs introduced in version 1.0.2.",
+                                        "Added Network Tuner.",
+                                        "Improved workflow.",
+                                        "Added support for additional languages, including Polish and Turkish.",
+                                        "Improved overall performance.",
+                                        "Optimized RAM usage.",
+                                        "Optimized CPU usage.",
+                                        "Enhanced system responsiveness.",
+                                        "Reduced resource consumption.",
+                                        "Improved stability."
                                     ]
                     },
                     {
