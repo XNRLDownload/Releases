@@ -1,24 +1,50 @@
 {
-    "version":  "1.0.3",
+    "schemaVersion":  2,
+    "sequence":  1,
+    "issuedAt":  1785953372615,
+    "expiresAt":  1793729372618,
+    "channel":  "stable",
+    "keyId":  "release-p256-2026-01",
+    "version":  "1.0.6",
     "downloadUrl":  "https://github.com/XNRLDownload/Releases/releases/latest/download/publish.zip",
-    "sha256":  "708e688ed6c486675aa01343d1fd8af7a8dfddc9cc3b3f7d316c94ecd8054fcf",
-    "signature":  "8JpfVPoemJduzrCc0maEFKDSJsGkP3kXBbFtyl16cTgKE5+RHqIHwg45gLUkEob5OZKhYD6o+t1Tht9Qq3sGaA==",
-    "changelog":  "Bug fixes for the issues introduced in 1.0.2.\nAdded Network Tuner.\nImproved workflow.\nAdded support for additional languages.",
+    "sha256":  "7d7d83cf31c4dfac256a1557ef6c871f2e1155b74fb6fadca99dc8ee28b9c826",
+    "signature":  "msXasHEZjGUkCWVJhw7vSOpk57Yq9QZaqWsIioI/UKbgJouUiqHuXnThLFMGdgsKnvs1c0OfQ1zZfhjUfA8/Bg==",
+    "signatureV2":  "nShzr+qml9NOJrPCZMhJhMRjyNXfmyAiNDQrLzgD9lLFgfW4Ik80rvddHg4sNtzXkE9Hl9hFSTeJ22D+JqlASA==",
+    "changelog":  "Comprehensive rework across the entire app - CPU Tuner overhaul, new Game Compressor, Apex improvements, expanded hardware support, and hardened safety architecture.",
     "history":  [
+                    {
+                        "version":  "1.0.6",
+                        "date":  "2026-08-05",
+                        "changes":  [
+                                        "Completely reworked the CPU Tuner with per-architecture profile staging, hardware-gated controls, and graceful handling of unsupported configurations.",
+                                        "Added the new Game Compressor feature to reduce game storage footprint without impacting load times or in-game performance.",
+                                        "Expanded next-generation CPU support including Intel Series 2 Core Ultra and AMD Zen 5 with advanced power, cache, and prefetch policy controls.",
+                                        "Added Windows 11 24H2 latency-hint EPP support for autonomous system responsiveness tuning.",
+                                        "Expanded Intel platform power and ring frequency controls across supported Xeon and desktop families.",
+                                        "Resolved Apex State tracking and startup persistence issues; improved profile scaling and Apex Game Mode reliability.",
+                                        "Separated CPU Overclocking SMU hold loops from transactional MSR operations for safer concurrent execution.",
+                                        "Fixed add-on listing, gift-code generation, and referral tracking visibility in Rewards \u0026 Refer \u0026 Earn.",
+                                        "Fixed GPU Overclocking startup reapply logic for standalone GPU Overclocking owners.",
+                                        "Hardened hardware transaction gates, DPAPI recovery journaling, WHEA error guards, and atomic fail-closed rollback.",
+                                        "Keep Safe notifications now default to opt-in for a less intrusive out-of-box experience.",
+                                        "Polished toast notification feedback, preserved BAML binding contracts across UI carousels, and improved overall UI responsiveness.",
+                                        "Expanded localization coverage across all 9 supported languages."
+                                    ]
+                    },
                     {
                         "version":  "1.0.3",
                         "date":  "2026-07-08",
                         "changes":  [
-    "Version 1.0.3 - Fixed the bugs introduced in version 1.0.2.",
-    "Added Network Tuner.",
-    "Improved workflow.",
-    "Added support for additional languages, including Polish and Turkish.",
-    "Improved overall performance.",
-    "Optimized RAM usage.",
-    "Optimized CPU usage.",
-    "Enhanced system responsiveness.",
-    "Reduced resource consumption.",
-    "Improved stability."
+                                        "Version 1.0.3 - Fixed the bugs introduced in version 1.0.2.",
+                                        "Added Network Tuner.",
+                                        "Improved workflow.",
+                                        "Added support for additional languages, including Polish and Turkish.",
+                                        "Improved overall performance.",
+                                        "Optimized RAM usage.",
+                                        "Optimized CPU usage.",
+                                        "Enhanced system responsiveness.",
+                                        "Reduced resource consumption.",
+                                        "Improved stability."
                                     ]
                     },
                     {
