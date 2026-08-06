@@ -1,17 +1,24 @@
 {
     "schemaVersion":  2,
-    "sequence":  3,
-    "issuedAt":  1786038277936,
-    "expiresAt":  1793814277940,
+    "sequence":  4,
+    "issuedAt":  1786050925722,
+    "expiresAt":  1793826925727,
     "channel":  "stable",
     "keyId":  "release-p256-2026-01",
-    "version":  "1.0.8",
+    "version":  "1.0.10",
     "downloadUrl":  "https://github.com/XNRLDownload/Releases/releases/latest/download/publish.zip",
-    "sha256":  "44c8a1b6f47df175eb74bccdc15bdc55545b67d4b1e60542c6049f9051d23be7",
-    "signature":  "+xcOkGA4btnytQ3omzLoqAhHwQSvh8g4A480nAN3HQ6dPxlQAoekK5+x6ytE8rBJaDMd0dbC/uK/bfzpjMjVbw==",
-    "signatureV2":  "dq8xgS1gFRBZtn6vzkbzLqqurPq0vNFnYiDGUTESQvN9HJ1c31edgnOVRYr+iM9fx7o0UyJ1uqw21vz9sz1wUQ==",
-    "changelog":  "Protected updater handoff and Apex startup reliability.",
+    "sha256":  "e6d2ab625d894ed23e8ac6d09a96d505a32a8619697243e1d9604a134f6be37b",
+    "signature":  "+Bdli+COgu9Ynl8EPP8jnXAUZapbuJAtMnudyXb4iseZs/rQmsu1d3m6ZUfNEnmVtibHNdzU79wiO8kzERTAMw==",
+    "signatureV2":  "W1dQGDcP1Ga07Jdiv5fYOPsYSzLgReAWTNR3Z64tgdQKkc+P6Qo3Cn8b09BynVnwJl9UGhsAzyrbOXOsJL8kTg==",
+    "changelog":  "Protected",
     "history":  [
+                    {
+                        "version":  "1.0.10",
+                        "date":  "2026-08-06",
+                        "changes":  [
+                                        "Fixed the legacy 1.0.6 to 1.0.8 update loop with a one-time protected Setup migration path."
+                                    ]
+                    },
                     {
                         "version":  "1.0.8",
                         "date":  "2026-08-06",
