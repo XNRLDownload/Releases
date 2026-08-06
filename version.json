@@ -1,17 +1,31 @@
 {
     "schemaVersion":  2,
-    "sequence":  1,
-    "issuedAt":  1785953372615,
-    "expiresAt":  1793729372618,
+    "sequence":  2,
+    "issuedAt":  1786020120409,
+    "expiresAt":  1793796120411,
     "channel":  "stable",
     "keyId":  "release-p256-2026-01",
-    "version":  "1.0.6",
+    "version":  "1.0.7",
     "downloadUrl":  "https://github.com/XNRLDownload/Releases/releases/latest/download/publish.zip",
-    "sha256":  "7d7d83cf31c4dfac256a1557ef6c871f2e1155b74fb6fadca99dc8ee28b9c826",
-    "signature":  "msXasHEZjGUkCWVJhw7vSOpk57Yq9QZaqWsIioI/UKbgJouUiqHuXnThLFMGdgsKnvs1c0OfQ1zZfhjUfA8/Bg==",
-    "signatureV2":  "nShzr+qml9NOJrPCZMhJhMRjyNXfmyAiNDQrLzgD9lLFgfW4Ik80rvddHg4sNtzXkE9Hl9hFSTeJ22D+JqlASA==",
-    "changelog":  "Comprehensive rework across the entire app - CPU Tuner overhaul, new Game Compressor, Apex improvements, expanded hardware support, and hardened safety architecture.",
+    "sha256":  "7426ddbf269459c06b5ec8c09f385f5608c509bef462dd21ab92f0d351bb9360",
+    "signature":  "hSuz5u3dHwNSrVvstIl0cQLOuQFan/P7U+74nafmI8cHaEo8DYmYtGzkK3PCU0Gqc4rQPKxCxwVSEk36nE0Kfw==",
+    "signatureV2":  "Kd4sxh/pfQhEI7jxdep94LaaV+MsE9fwVXzBP369/6HFc9U6Utw5y5bkO2YpNUdF7FrAcF3AcDHOxZpvbpJ9pQ==",
+    "changelog":  "Protected startup, wallpaper, entitlement, referral, affiliate, and game-mode reliability release.",
     "history":  [
+                    {
+                        "version":  "1.0.7",
+                        "date":  "2026-08-06",
+                        "changes":  [
+                                        "Fixed umbrella apply-on-startup reconciliation for all wired feature paths, including CPU/GPU overclock startup state.",
+                                        "Apex purchases now seed all four 30-day add-on trials without overwriting existing trial clocks.",
+                                        "Repaired Discord server-booster verification and clarified sign-in/boost requirements.",
+                                        "Fixed the Google sign-in icon, onboarding Continue flow, game-mode minimize behavior, and clipped UI surfaces.",
+                                        "Preserved Wallpaper Library WPF binding contracts through wpf-max so artwork, ratings, and card controls survive protection.",
+                                        "Added server-owned referral rewards: 1 referral earns 14 days of Apex and 5 referrals earn 60 days, with idempotent qualification.",
+                                        "Added duplicate-safe affiliate attribution and tiered 30/35/40 percent commission accounting for eligible purchases.",
+                                        "Expanded protected navigation, startup, backend, localization, and release-contract validation."
+                                    ]
+                    },
                     {
                         "version":  "1.0.6",
                         "date":  "2026-08-05",
