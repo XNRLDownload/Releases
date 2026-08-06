@@ -1,17 +1,30 @@
 {
     "schemaVersion":  2,
-    "sequence":  3,
-    "issuedAt":  1786038277936,
-    "expiresAt":  1793814277940,
+    "sequence":  4,
+    "issuedAt":  1786052508363,
+    "expiresAt":  1793828508368,
     "channel":  "stable",
     "keyId":  "release-p256-2026-01",
-    "version":  "1.0.8",
+    "version":  "1.0.11",
     "downloadUrl":  "https://github.com/XNRLDownload/Releases/releases/latest/download/publish.zip",
-    "sha256":  "44c8a1b6f47df175eb74bccdc15bdc55545b67d4b1e60542c6049f9051d23be7",
-    "signature":  "+xcOkGA4btnytQ3omzLoqAhHwQSvh8g4A480nAN3HQ6dPxlQAoekK5+x6ytE8rBJaDMd0dbC/uK/bfzpjMjVbw==",
-    "signatureV2":  "dq8xgS1gFRBZtn6vzkbzLqqurPq0vNFnYiDGUTESQvN9HJ1c31edgnOVRYr+iM9fx7o0UyJ1uqw21vz9sz1wUQ==",
-    "changelog":  "Protected updater handoff and Apex startup reliability.",
+    "sha256":  "2c764afc44c868b49d0653558107d51983d82af04534717cf79cd50962c485a2",
+    "signature":  "QF5rwVZJihIaGxyn5P3Tb/hd6e2mGiYxSHpVYSjTxA1z/EKPb8NDL5hZpyH7qJCMW3VbkVZBiesZehc5TcJGtw==",
+    "signatureV2":  "bYreuBzcjIkwmZEC2sd3+pgMVAB49IXfGlB+MuC8mmptFnwDTdfFKQ5pbtRQmhww0w6zIKeJEBgZ6rIrPK1/yQ==",
+    "changelog":  "Protected 1.0.11 release with update-loop recovery, Poppins installer startup, resilient authentication, and hardened publication guardrails.",
     "history":  [
+                    {
+                        "version":  "1.0.11",
+                        "date":  "2026-08-06",
+                        "changes":  [
+                                        "Fixed the legacy 1.0.6 update loop with a protected one-time Setup migration path and verified installed 1.0.8 health acknowledgement.",
+                                        "Hardened single-file installer startup and applied Poppins typography without weakening wpf-max protection.",
+                                        "Separated shared-IP and per-account Google and Discord authentication limits so legitimate accounts do not consume one another.",
+                                        "Deployed and smoke-tested the guarded authentication backend with all security tests passing.",
+                                        "Fixed the CPU security-control self-test contract and retained bounded protected resource checks.",
+                                        "Added single-publisher locking, immutable-release enforcement, consumed-version history checks, and manifest convergence retries.",
+                                        "Rebuilt and verified the exact 1.0.11 protected app, installer, navigation, authentication, native-island, and tamper gates."
+                                    ]
+                    },
                     {
                         "version":  "1.0.8",
                         "date":  "2026-08-06",
