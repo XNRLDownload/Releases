@@ -1,24 +1,17 @@
 {
     "schemaVersion":  2,
-    "sequence":  4,
-    "issuedAt":  1786047300991,
-    "expiresAt":  1793823300997,
+    "sequence":  3,
+    "issuedAt":  1786038277936,
+    "expiresAt":  1793814277940,
     "channel":  "stable",
     "keyId":  "release-p256-2026-01",
-    "version":  "1.0.9",
+    "version":  "1.0.8",
     "downloadUrl":  "https://github.com/XNRLDownload/Releases/releases/latest/download/publish.zip",
-    "sha256":  "764ae31d9d74e565ff3b2326724f6e897e6eed3c238db76b12f8ae33ce72ccfc",
-    "signature":  "lp+6cw2Ob8WMs67vIxUK5AI7Nr30wL4gnUwsg812qSTvZOjXLv1qwNNFM/FOJvRJq9TV63uDG0GdoSYs+gQoaQ==",
-    "signatureV2":  "kJZtjWHO4xh1sEHDRwxgVBEQwQOI5mI0McOoTqbdsYR9t2OsKopvmyGULVN5RE5odu2qqgvI3yrZTtDawTLWYQ==",
-    "changelog":  "Protected 1.0.9 release with reliable updates, Poppins installer startup, and resilient account authentication.",
+    "sha256":  "44c8a1b6f47df175eb74bccdc15bdc55545b67d4b1e60542c6049f9051d23be7",
+    "signature":  "+xcOkGA4btnytQ3omzLoqAhHwQSvh8g4A480nAN3HQ6dPxlQAoekK5+x6ytE8rBJaDMd0dbC/uK/bfzpjMjVbw==",
+    "signatureV2":  "dq8xgS1gFRBZtn6vzkbzLqqurPq0vNFnYiDGUTESQvN9HJ1c31edgnOVRYr+iM9fx7o0UyJ1uqw21vz9sz1wUQ==",
+    "changelog":  "Protected updater handoff and Apex startup reliability.",
     "history":  [
-                    {
-                        "version":  "1.0.9",
-                        "date":  "2026-08-06",
-                        "changes":  [
-                                        "Fixed the legacy 1.0.6 to 1.0.8 update loop with a one-time protected Setup migration path."
-                                    ]
-                    },
                     {
                         "version":  "1.0.8",
                         "date":  "2026-08-06",
