@@ -1,17 +1,24 @@
 {
     "schemaVersion":  2,
-    "sequence":  2,
-    "issuedAt":  1786020120409,
-    "expiresAt":  1793796120411,
+    "sequence":  3,
+    "issuedAt":  1786038277936,
+    "expiresAt":  1793814277940,
     "channel":  "stable",
     "keyId":  "release-p256-2026-01",
-    "version":  "1.0.7",
+    "version":  "1.0.8",
     "downloadUrl":  "https://github.com/XNRLDownload/Releases/releases/latest/download/publish.zip",
-    "sha256":  "7426ddbf269459c06b5ec8c09f385f5608c509bef462dd21ab92f0d351bb9360",
-    "signature":  "hSuz5u3dHwNSrVvstIl0cQLOuQFan/P7U+74nafmI8cHaEo8DYmYtGzkK3PCU0Gqc4rQPKxCxwVSEk36nE0Kfw==",
-    "signatureV2":  "Kd4sxh/pfQhEI7jxdep94LaaV+MsE9fwVXzBP369/6HFc9U6Utw5y5bkO2YpNUdF7FrAcF3AcDHOxZpvbpJ9pQ==",
-    "changelog":  "Protected startup, wallpaper, entitlement, referral, affiliate, and game-mode reliability release.",
+    "sha256":  "44c8a1b6f47df175eb74bccdc15bdc55545b67d4b1e60542c6049f9051d23be7",
+    "signature":  "+xcOkGA4btnytQ3omzLoqAhHwQSvh8g4A480nAN3HQ6dPxlQAoekK5+x6ytE8rBJaDMd0dbC/uK/bfzpjMjVbw==",
+    "signatureV2":  "dq8xgS1gFRBZtn6vzkbzLqqurPq0vNFnYiDGUTESQvN9HJ1c31edgnOVRYr+iM9fx7o0UyJ1uqw21vz9sz1wUQ==",
+    "changelog":  "Protected updater handoff and Apex startup reliability.",
     "history":  [
+                    {
+                        "version":  "1.0.8",
+                        "date":  "2026-08-06",
+                        "changes":  [
+                                        "Fixed the protected auto-update handoff so the helper validates and consumes its one-use ticket before the old process exits."
+                                    ]
+                    },
                     {
                         "version":  "1.0.7",
                         "date":  "2026-08-06",
