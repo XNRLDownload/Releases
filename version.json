@@ -1,17 +1,27 @@
 {
     "schemaVersion":  2,
-    "sequence":  5,
-    "issuedAt":  1786806896321,
-    "expiresAt":  1794582896324,
+    "sequence":  6,
+    "issuedAt":  1786835304333,
+    "expiresAt":  1794611304335,
     "channel":  "stable",
     "keyId":  "release-p256-2026-01",
-    "version":  "1.0.12",
+    "version":  "1.0.13",
     "downloadUrl":  "https://github.com/XNRLDownload/Releases/releases/latest/download/publish.zip",
-    "sha256":  "f3fce29a6644b2aea9d6a4649c67c442dbfb01fcae700f5454bb12e7fafe5c9c",
-    "signature":  "OrAl/p6KxJBKPR+bSGkAwhWjo+59sA6tN/s4Zi+cLXbWMhpSu3ntkVXejxrgnMRrG40Y0AKMLU5WHcOpU6FCQw==",
-    "signatureV2":  "D20eWZCFRrVJL3tdcMZ/FvPdkGqilmaljB39NU26aRxYhqAeBp3U99CFrA753GkezCxp4lvN/q8KaZmBe3d/2g==",
-    "changelog":  "Protected 1.0.12 release: diagnostic logging is now opt-in, with faster entitlement checks and reduced backend load.",
+    "sha256":  "514ade2fc1a42232c5638d758f376aec4f8f44faa497f508dde4304c5a2ac330",
+    "signature":  "HbstwMKlIQMuKpuU/KCIjarGYt9bgggtOnQEFxT86ndaRZnmNFHjIWfYK7gMeNqBdUJF0q4dK6JM7u7ctvaFvg==",
+    "signatureV2":  "AEhs4yOadnSjakfmRkcw8TWVAl0vnjta0B1dCOTHFlKVQzXfdEqSJ5diaLio7lCE/KIrYqzAnbVPvWgyMue1GA==",
+    "changelog":  "Fixes the update loop, makes updates self-recovering, and moves diagnostics to an encrypted log you can attach to a bug report.",
     "history":  [
+                    {
+                        "version":  "1.0.13",
+                        "date":  "2026-08-16",
+                        "changes":  [
+                                        "Fixes an update loop where 1.0.11 and 1.0.12 could re-download the same version without installing it",
+                                        "Updates now retry a locked install folder instead of failing, and recover automatically from an interrupted update",
+                                        "Diagnostics are now encrypted and stored in the app folder instead of your Desktop",
+                                        "Bug reports can attach the encrypted diagnostic log so support can see what went wrong"
+                                    ]
+                    },
                     {
                         "version":  "1.0.12",
                         "date":  "2026-08-15",
