@@ -1,17 +1,26 @@
 {
     "schemaVersion":  2,
-    "sequence":  4,
-    "issuedAt":  1786052508363,
-    "expiresAt":  1793828508368,
+    "sequence":  5,
+    "issuedAt":  1786806896321,
+    "expiresAt":  1794582896324,
     "channel":  "stable",
     "keyId":  "release-p256-2026-01",
-    "version":  "1.0.11",
+    "version":  "1.0.12",
     "downloadUrl":  "https://github.com/XNRLDownload/Releases/releases/latest/download/publish.zip",
-    "sha256":  "2c764afc44c868b49d0653558107d51983d82af04534717cf79cd50962c485a2",
-    "signature":  "QF5rwVZJihIaGxyn5P3Tb/hd6e2mGiYxSHpVYSjTxA1z/EKPb8NDL5hZpyH7qJCMW3VbkVZBiesZehc5TcJGtw==",
-    "signatureV2":  "bYreuBzcjIkwmZEC2sd3+pgMVAB49IXfGlB+MuC8mmptFnwDTdfFKQ5pbtRQmhww0w6zIKeJEBgZ6rIrPK1/yQ==",
-    "changelog":  "Protected 1.0.11 release with update-loop recovery, Poppins installer startup, resilient authentication, and hardened publication guardrails.",
+    "sha256":  "f3fce29a6644b2aea9d6a4649c67c442dbfb01fcae700f5454bb12e7fafe5c9c",
+    "signature":  "OrAl/p6KxJBKPR+bSGkAwhWjo+59sA6tN/s4Zi+cLXbWMhpSu3ntkVXejxrgnMRrG40Y0AKMLU5WHcOpU6FCQw==",
+    "signatureV2":  "D20eWZCFRrVJL3tdcMZ/FvPdkGqilmaljB39NU26aRxYhqAeBp3U99CFrA753GkezCxp4lvN/q8KaZmBe3d/2g==",
+    "changelog":  "Protected 1.0.12 release: diagnostic logging is now opt-in, with faster entitlement checks and reduced backend load.",
     "history":  [
+                    {
+                        "version":  "1.0.12",
+                        "date":  "2026-08-15",
+                        "changes":  [
+                                        "Diagnostic logging is now opt-in - set XNRL_DEBUGLOG=1 to capture a support trace",
+                                        "Faster entitlement checks and reduced backend load",
+                                        "Reward notifications now resolve from a cached index"
+                                    ]
+                    },
                     {
                         "version":  "1.0.11",
                         "date":  "2026-08-06",
