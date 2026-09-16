@@ -1,247 +1,247 @@
 {
-  "schemaVersion": 2,
-  "sequence": 10,
-  "issuedAt": 1789575836263,
-  "expiresAt": 1797351836263,
-  "channel": "stable",
-  "keyId": "release-p256-2026-01",
-  "version": "1.1.17",
-  "downloadUrl": "https://github.com/XNRLDownload/Releases/releases/latest/download/publish.zip",
-  "sha256": "e4511a6bdcac22d1821ef0a5f812cd82613d5cb5ac2002be280bd18bdc813eac",
-  "signature": "",
-  "signatureV2": "",
-  "changelog": "Improves session continuity and delivers Startup Manager, Game Mode, hardware tuning, and Cloud Config Sync fixes.",
-  "history": [
-    {
-      "version": "1.1.17",
-      "date": "2026-09-16",
-      "changes": [
-        "Temporary backend failures now preserve a valid session and retry on a bounded schedule.",
-        "Definitive invalid or device-mismatched sessions still fail closed and use the normal sign-in flow.",
-        "Startup Manager now respects its pin and game-launch trigger and gives clearer setup guidance.",
-        "Game Mode activation summaries finish faster while retaining the complete activation log.",
-        "CPU and GPU tuning gains supported hardware controls, saved profiles, and AMD fan-curve support.",
-        "Cloud Config Sync, dashboard analytics, checkout ownership, and currency surfaces are more consistent.",
-        "Offline mode, navigation, sign-in layout, and website mobile feedback paths were repaired."
-      ]
-    },
-    {
-      "version": "1.1.16",
-      "date": "2026-09-04",
-      "changes": [
-        "Version 1.1.15 was skipped - everything from it is included here.",
-        "Fixed the update loop: an update now installs and stays installed, instead of downloading, restarting, and coming back on the old version.",
-        "An update that fails repeatedly now stops retrying and offers the manual installer instead of looping, and update failures record which step failed.",
-        "Quickstart now shows 4 steps and scrolls for the rest, instead of taking over the whole Home page.",
-        "Quickstart opens on the step you are actually on - finish steps 1 and 2 and it opens on step 3, instead of making you scroll past completed items.",
-        "Removed the Quickstart collapse arrow, and fixed the checklist not scrolling so steps 5-10 are reachable.",
-        "Quickstart step descriptions now wrap instead of being cut off mid-sentence.",
-        "The Quickstart GPU step now names both NVIDIA and AMD when your PC has both, instead of always reading as NVIDIA-only.",
-        "The first-run welcome/tutorial video is now a real onboarding step, shown once per install instead of being reachable only from the Home card.",
-        "Removed the Audio & Latency Tuner; its one genuinely useful control, Disable Audio Enhancements, moved into General Tweaks.",
-        "Fixed Startup Manager repeating \"Activating...\" forever on Roblox and Fortnite, caused by anti-cheat tightening process access mid-session.",
-        "Startup Manager game launch profiles can now apply Game Mode directly.",
-        "Fixed the Priority Tuner overlay replaying its activation animation several times during one game session.",
-        "Fixed \"Custom CPU apply failed unexpectedly\" in CPU Overclocking on real shipped builds."
-      ]
-    },
-    {
-      "version": "1.1.15",
-      "date": "2026-09-04",
-      "changes": [
-        "Fixed the update loop: an update now installs and stays installed, instead of downloading, restarting, and coming back on the old version.",
-        "An update that fails repeatedly now stops retrying and offers the manual installer instead of looping, and update failures record which step failed.",
-        "Quickstart now shows 4 steps and scrolls for the rest, scrolling to your current step automatically, and step descriptions wrap instead of being cut off.",
-        "The Quickstart GPU step now names both NVIDIA and AMD when your PC has both, instead of always reading as NVIDIA-only.",
-        "The first-run welcome/tutorial video is now a real onboarding step, shown once per install instead of being reachable only from the Home card.",
-        "Removed the Audio & Latency Tuner; its one genuinely useful control, Disable Audio Enhancements, moved into General Tweaks.",
-        "Fixed Startup Manager repeating \"Activating...\" forever on Roblox and Fortnite, caused by anti-cheat tightening process access mid-session.",
-        "Startup Manager game launch profiles can now apply Game Mode directly.",
-        "Fixed the Priority Tuner overlay replaying its activation animation several times during one game session.",
-        "Fixed \"Custom CPU apply failed unexpectedly\" in CPU Overclocking on real shipped builds."
-      ]
-    },
-    {
-      "version": "1.1.14",
-      "date": "2026-09-04",
-      "changes": [
-        "Fixed AMD CPU Tuner applies on CPPC-active systems by excluding only the unreadable legacy P-state request, so Ultra and Boost profiles can complete their remaining verified rows.",
-        "Auto-detected games now activate the full Game Mode session, and the Startup Manager Game Mode switch takes effect on the next detection.",
-        "Expanded Quickstart to 10 guided steps, added the official AMD driver installer, and replaced the continuous checklist glow with a static highlight.",
-        "Standalone CPU, Priority, Network, and Overclocking ownership now appears correctly in the sidebar, Settings, and Add-ons dialog.",
-        "Fixed the sign-in email-panel layout, protected native-island single-file validation, backend reliability/index rollout, and website cache/mobile fixes.",
-        "Admin sessions now last 30 days with Error Logs and Rank Award Logs."
-      ]
-    },
-    {
-      "version": "1.0.13",
-      "date": "2026-08-16",
-      "changes": [
-        "Fixes an update loop where 1.0.11 and 1.0.12 could re-download the same version without installing it",
-        "Updates now retry a locked install folder instead of failing, and recover automatically from an interrupted update",
-        "Diagnostics are now encrypted and stored in the app folder instead of your Desktop",
-        "Bug reports can attach the encrypted diagnostic log so support can see what went wrong"
-      ]
-    },
-    {
-      "version": "1.0.12",
-      "date": "2026-08-15",
-      "changes": [
-        "Diagnostic logging is now opt-in - set XNRL_DEBUGLOG=1 to capture a support trace",
-        "Faster entitlement checks and reduced backend load",
-        "Reward notifications now resolve from a cached index"
-      ]
-    },
-    {
-      "version": "1.0.11",
-      "date": "2026-08-06",
-      "changes": [
-        "Fixed the legacy 1.0.6 update loop with a protected one-time Setup migration path and verified installed 1.0.8 health acknowledgement.",
-        "Hardened single-file installer startup and applied Poppins typography without weakening wpf-max protection.",
-        "Separated shared-IP and per-account Google and Discord authentication limits so legitimate accounts do not consume one another.",
-        "Deployed and smoke-tested the guarded authentication backend with all security tests passing.",
-        "Fixed the CPU security-control self-test contract and retained bounded protected resource checks.",
-        "Added single-publisher locking, immutable-release enforcement, consumed-version history checks, and manifest convergence retries.",
-        "Rebuilt and verified the exact 1.0.11 protected app, installer, navigation, authentication, native-island, and tamper gates."
-      ]
-    },
-    {
-      "version": "1.0.8",
-      "date": "2026-08-06",
-      "changes": [
-        "Fixed the protected auto-update handoff so the helper validates and consumes its one-use ticket before the old process exits."
-      ]
-    },
-    {
-      "version": "1.0.7",
-      "date": "2026-08-06",
-      "changes": [
-        "Fixed umbrella apply-on-startup reconciliation for all wired feature paths, including CPU/GPU overclock startup state.",
-        "Apex purchases now seed all four 30-day add-on trials without overwriting existing trial clocks.",
-        "Repaired Discord server-booster verification and clarified sign-in/boost requirements.",
-        "Fixed the Google sign-in icon, onboarding Continue flow, game-mode minimize behavior, and clipped UI surfaces.",
-        "Preserved Wallpaper Library WPF binding contracts through wpf-max so artwork, ratings, and card controls survive protection.",
-        "Added server-owned referral rewards: 1 referral earns 14 days of Apex and 5 referrals earn 60 days, with idempotent qualification.",
-        "Added duplicate-safe affiliate attribution and tiered 30/35/40 percent commission accounting for eligible purchases.",
-        "Expanded protected navigation, startup, backend, localization, and release-contract validation."
-      ]
-    },
-    {
-      "version": "1.0.6",
-      "date": "2026-08-05",
-      "changes": [
-        "Completely reworked the CPU Tuner with per-architecture profile staging, hardware-gated controls, and graceful handling of unsupported configurations.",
-        "Added the new Game Compressor feature to reduce game storage footprint without impacting load times or in-game performance.",
-        "Expanded next-generation CPU support including Intel Series 2 Core Ultra and AMD Zen 5 with advanced power, cache, and prefetch policy controls.",
-        "Added Windows 11 24H2 latency-hint EPP support for autonomous system responsiveness tuning.",
-        "Expanded Intel platform power and ring frequency controls across supported Xeon and desktop families.",
-        "Resolved Apex State tracking and startup persistence issues; improved profile scaling and Apex Game Mode reliability.",
-        "Separated CPU Overclocking SMU hold loops from transactional MSR operations for safer concurrent execution.",
-        "Fixed add-on listing, gift-code generation, and referral tracking visibility in Rewards & Refer & Earn.",
-        "Fixed GPU Overclocking startup reapply logic for standalone GPU Overclocking owners.",
-        "Hardened hardware transaction gates, DPAPI recovery journaling, WHEA error guards, and atomic fail-closed rollback.",
-        "Keep Safe notifications now default to opt-in for a less intrusive out-of-box experience.",
-        "Polished toast notification feedback, preserved BAML binding contracts across UI carousels, and improved overall UI responsiveness.",
-        "Expanded localization coverage across all 9 supported languages."
-      ]
-    },
-    {
-      "version": "1.0.3",
-      "date": "2026-07-08",
-      "changes": [
-        "Version 1.0.3 - Fixed the bugs introduced in version 1.0.2.",
-        "Added Network Tuner.",
-        "Improved workflow.",
-        "Added support for additional languages, including Polish and Turkish.",
-        "Improved overall performance.",
-        "Optimized RAM usage.",
-        "Optimized CPU usage.",
-        "Enhanced system responsiveness.",
-        "Reduced resource consumption.",
-        "Improved stability."
-      ]
-    },
-    {
-      "version": "1.0.2",
-      "date": "2026-07-03",
-      "changes": [
-        "Enabled Spanish, Italian, French, and Portuguese language support (previously marked \"Soon\"), and added German and Russian — 7 languages total.",
-        "Fixed hundreds of missing or incomplete translations across every non-English language, including navigation, Game Booster, Server Booster, Startup Boost, Debloat, and the Priorities Tuner reference tables.",
-        "Added automatic detection of your Windows display language on first launch.",
-        "Added a restart-required notification bar after applying tweaks, with a one-click Restart button.",
-        "Added real Discord server-membership verification for Server Booster, with a direct Join Discord button.",
-        "Fixed the desktop shortcut prompt to reappear if the shortcut goes missing, and it now also adds a Start Menu entry.",
-        "Added a guided walkthrough tour for the Fixes tab.",
-        "Fixed authentication issues.",
-        "Fixed Power Plans Not Importing.",
-        "Reworked Apex Feature Priority Tuner",
-        "Updated Apex status and feature detection.",
-        "Fixed Server Booster failing to grant access.",
-        "Fixed Advanced Network Tweaks not working.",
-        "Fixed the Advanced Network tab's loading UI.",
-        "Improved the Upgrade to Apex UI.",
-        "Fixed Apex Network Tweaks.",
-        "Fixed switches (toggles) disappearing.",
-        "Improved the Apex Auto Set Affinity Tuner.",
-        "Added Launch Game Feature",
-        "Added More Games to XNRL App Library",
-        "More logic added to priorities tuner",
-        "Added a new Apex feature: Scheduler & IRQ Lab.",
-        "Added Scheduler and Timer tweaks for Apex.",
-        "Added GPU, USB, and Interrupts tools for Apex users.",
-        "Added Core-to-Core Latency Benchmarks.",
-        "Fixed Startup Boost tweaks not launching on Windows startup.",
-        "Fixed CPU Tuner not launching on Windows startup.",
-        "Fixed an issue causing random account bans.",
-        "Added an in-app tutorial and guide.",
-        "Embedded tutorial videos now redirect straight to YouTube.",
-        "Added a new Apex-specific Game Mode."
-      ]
-    },
-    {
-      "version": "1.0.1",
-      "date": "2026-06-30",
-      "changes": [
-        "Fixed restore point error when attempting to create a restore point.",
-        "Fixed restore point error occurring after applying tweaks.",
-        "Fixed buttons displaying 'Upgrade to Premium' instead of 'Upgrade to Apex'.",
-        "Fixed Startup Boost progress not being counted correctly on the dashboard (0/4 Free, 0/21 Apex).",
-        "Fixed Server Booster save state not being preserved.",
-        "Fixed Apex and Extreme Profiles failing to apply.",
-        "Fixed Apex MSI Utility Tuner visual issues.",
-        "Fixed Apex Auto Affinity Tuner completion popup.",
-        "Improved the UI for Apex Auto Affinity Tuner.",
-        "Improved the UI for Apex MSI Utility Tuner.",
-        "Added Apex Boot Optimization system.",
-        "Added Apex Mode to Startup Boost.",
-        "Removed the Scheduled Debloat feature.",
-        "Fixed Startup Boost behavior and optimization process.",
-        "Fixed CPU Tuner not starting automatically on Windows startup.",
-        "Fixed remaining buttons displaying 'Upgrade to Premium' or 'Upgrade to Pro' instead of 'Upgrade to Apex'.",
-        "Added warning dialogs for tweaks that require extra caution.",
-        "Added warning icons and descriptions for applicable tweaks.",
-        "Added error codes to assist with debugging.",
-        "Added more revert tweak options.",
-        "Added a Revert Tweaks UI dialog.",
-        "Moved BIOS tweak application to the UI thread to prevent freezing.",
-        "Added a warning that Shader Cache will rebuild after deletion.",
-        "Added Roblox Error 268 fix."
-      ]
-    },
-    {
-      "version": "1.0.0",
-      "date": "2026-06-27",
-      "changes": [
-        "Initial Release",
-        "Added new BIOS tweaks",
-        "Added CPU Tuner",
-        "Added Priorities Manager",
-        "Added Game Booster tweaks",
-        "Added Startup tweaks",
-        "Added Debloat Manager",
-        "Added system cleaning utilities",
-        "Added advanced CPU and Windows optimizations"
-      ]
-    }
-  ]
+    "schemaVersion":  2,
+    "sequence":  11,
+    "issuedAt":  1789576216916,
+    "expiresAt":  1797352216919,
+    "channel":  "stable",
+    "keyId":  "release-p256-2026-01",
+    "version":  "1.1.17",
+    "downloadUrl":  "https://github.com/XNRLDownload/Releases/releases/latest/download/publish.zip",
+    "sha256":  "e4511a6bdcac22d1821ef0a5f812cd82613d5cb5ac2002be280bd18bdc813eac",
+    "signature":  "iht6yMmsSbBBoyKgF4BfQ1LDz2qNVsbYgVwxmYPA5eazJVIS/datJgQl+vIFCl5u295qQ9G8J1pdB90sv7EsVg==",
+    "signatureV2":  "iU7f7HmtMFkbCrtnXHZmMhykzvUOfUDo4YjmjySilM/UDnnim424BLdbHENl2ei7UeESRq7SffFXdLshqaZdqQ==",
+    "changelog":  "Improves session continuity and delivers Startup Manager, Game Mode, hardware tuning, and Cloud Config Sync fixes.",
+    "history":  [
+                    {
+                        "version":  "1.1.17",
+                        "date":  "2026-09-16",
+                        "changes":  [
+                                        "Temporary backend failures now preserve a valid session and retry on a bounded schedule.",
+                                        "Definitive invalid or device-mismatched sessions still fail closed and use the normal sign-in flow.",
+                                        "Startup Manager now respects its pin and game-launch trigger and gives clearer setup guidance.",
+                                        "Game Mode activation summaries finish faster while retaining the complete activation log.",
+                                        "CPU and GPU tuning gains supported hardware controls, saved profiles, and AMD fan-curve support.",
+                                        "Cloud Config Sync, dashboard analytics, checkout ownership, and currency surfaces are more consistent.",
+                                        "Offline mode, navigation, sign-in layout, and website mobile feedback paths were repaired."
+                                    ]
+                    },
+                    {
+                        "version":  "1.1.16",
+                        "date":  "2026-09-04",
+                        "changes":  [
+                                        "Version 1.1.15 was skipped - everything from it is included here.",
+                                        "Fixed the update loop: an update now installs and stays installed, instead of downloading, restarting, and coming back on the old version.",
+                                        "An update that fails repeatedly now stops retrying and offers the manual installer instead of looping, and update failures record which step failed.",
+                                        "Quickstart now shows 4 steps and scrolls for the rest, instead of taking over the whole Home page.",
+                                        "Quickstart opens on the step you are actually on - finish steps 1 and 2 and it opens on step 3, instead of making you scroll past completed items.",
+                                        "Removed the Quickstart collapse arrow, and fixed the checklist not scrolling so steps 5-10 are reachable.",
+                                        "Quickstart step descriptions now wrap instead of being cut off mid-sentence.",
+                                        "The Quickstart GPU step now names both NVIDIA and AMD when your PC has both, instead of always reading as NVIDIA-only.",
+                                        "The first-run welcome/tutorial video is now a real onboarding step, shown once per install instead of being reachable only from the Home card.",
+                                        "Removed the Audio \u0026 Latency Tuner; its one genuinely useful control, Disable Audio Enhancements, moved into General Tweaks.",
+                                        "Fixed Startup Manager repeating \"Activating...\" forever on Roblox and Fortnite, caused by anti-cheat tightening process access mid-session.",
+                                        "Startup Manager game launch profiles can now apply Game Mode directly.",
+                                        "Fixed the Priority Tuner overlay replaying its activation animation several times during one game session.",
+                                        "Fixed \"Custom CPU apply failed unexpectedly\" in CPU Overclocking on real shipped builds."
+                                    ]
+                    },
+                    {
+                        "version":  "1.1.15",
+                        "date":  "2026-09-04",
+                        "changes":  [
+                                        "Fixed the update loop: an update now installs and stays installed, instead of downloading, restarting, and coming back on the old version.",
+                                        "An update that fails repeatedly now stops retrying and offers the manual installer instead of looping, and update failures record which step failed.",
+                                        "Quickstart now shows 4 steps and scrolls for the rest, scrolling to your current step automatically, and step descriptions wrap instead of being cut off.",
+                                        "The Quickstart GPU step now names both NVIDIA and AMD when your PC has both, instead of always reading as NVIDIA-only.",
+                                        "The first-run welcome/tutorial video is now a real onboarding step, shown once per install instead of being reachable only from the Home card.",
+                                        "Removed the Audio \u0026 Latency Tuner; its one genuinely useful control, Disable Audio Enhancements, moved into General Tweaks.",
+                                        "Fixed Startup Manager repeating \"Activating...\" forever on Roblox and Fortnite, caused by anti-cheat tightening process access mid-session.",
+                                        "Startup Manager game launch profiles can now apply Game Mode directly.",
+                                        "Fixed the Priority Tuner overlay replaying its activation animation several times during one game session.",
+                                        "Fixed \"Custom CPU apply failed unexpectedly\" in CPU Overclocking on real shipped builds."
+                                    ]
+                    },
+                    {
+                        "version":  "1.1.14",
+                        "date":  "2026-09-04",
+                        "changes":  [
+                                        "Fixed AMD CPU Tuner applies on CPPC-active systems by excluding only the unreadable legacy P-state request, so Ultra and Boost profiles can complete their remaining verified rows.",
+                                        "Auto-detected games now activate the full Game Mode session, and the Startup Manager Game Mode switch takes effect on the next detection.",
+                                        "Expanded Quickstart to 10 guided steps, added the official AMD driver installer, and replaced the continuous checklist glow with a static highlight.",
+                                        "Standalone CPU, Priority, Network, and Overclocking ownership now appears correctly in the sidebar, Settings, and Add-ons dialog.",
+                                        "Fixed the sign-in email-panel layout, protected native-island single-file validation, backend reliability/index rollout, and website cache/mobile fixes.",
+                                        "Admin sessions now last 30 days with Error Logs and Rank Award Logs."
+                                    ]
+                    },
+                    {
+                        "version":  "1.0.13",
+                        "date":  "2026-08-16",
+                        "changes":  [
+                                        "Fixes an update loop where 1.0.11 and 1.0.12 could re-download the same version without installing it",
+                                        "Updates now retry a locked install folder instead of failing, and recover automatically from an interrupted update",
+                                        "Diagnostics are now encrypted and stored in the app folder instead of your Desktop",
+                                        "Bug reports can attach the encrypted diagnostic log so support can see what went wrong"
+                                    ]
+                    },
+                    {
+                        "version":  "1.0.12",
+                        "date":  "2026-08-15",
+                        "changes":  [
+                                        "Diagnostic logging is now opt-in - set XNRL_DEBUGLOG=1 to capture a support trace",
+                                        "Faster entitlement checks and reduced backend load",
+                                        "Reward notifications now resolve from a cached index"
+                                    ]
+                    },
+                    {
+                        "version":  "1.0.11",
+                        "date":  "2026-08-06",
+                        "changes":  [
+                                        "Fixed the legacy 1.0.6 update loop with a protected one-time Setup migration path and verified installed 1.0.8 health acknowledgement.",
+                                        "Hardened single-file installer startup and applied Poppins typography without weakening wpf-max protection.",
+                                        "Separated shared-IP and per-account Google and Discord authentication limits so legitimate accounts do not consume one another.",
+                                        "Deployed and smoke-tested the guarded authentication backend with all security tests passing.",
+                                        "Fixed the CPU security-control self-test contract and retained bounded protected resource checks.",
+                                        "Added single-publisher locking, immutable-release enforcement, consumed-version history checks, and manifest convergence retries.",
+                                        "Rebuilt and verified the exact 1.0.11 protected app, installer, navigation, authentication, native-island, and tamper gates."
+                                    ]
+                    },
+                    {
+                        "version":  "1.0.8",
+                        "date":  "2026-08-06",
+                        "changes":  [
+                                        "Fixed the protected auto-update handoff so the helper validates and consumes its one-use ticket before the old process exits."
+                                    ]
+                    },
+                    {
+                        "version":  "1.0.7",
+                        "date":  "2026-08-06",
+                        "changes":  [
+                                        "Fixed umbrella apply-on-startup reconciliation for all wired feature paths, including CPU/GPU overclock startup state.",
+                                        "Apex purchases now seed all four 30-day add-on trials without overwriting existing trial clocks.",
+                                        "Repaired Discord server-booster verification and clarified sign-in/boost requirements.",
+                                        "Fixed the Google sign-in icon, onboarding Continue flow, game-mode minimize behavior, and clipped UI surfaces.",
+                                        "Preserved Wallpaper Library WPF binding contracts through wpf-max so artwork, ratings, and card controls survive protection.",
+                                        "Added server-owned referral rewards: 1 referral earns 14 days of Apex and 5 referrals earn 60 days, with idempotent qualification.",
+                                        "Added duplicate-safe affiliate attribution and tiered 30/35/40 percent commission accounting for eligible purchases.",
+                                        "Expanded protected navigation, startup, backend, localization, and release-contract validation."
+                                    ]
+                    },
+                    {
+                        "version":  "1.0.6",
+                        "date":  "2026-08-05",
+                        "changes":  [
+                                        "Completely reworked the CPU Tuner with per-architecture profile staging, hardware-gated controls, and graceful handling of unsupported configurations.",
+                                        "Added the new Game Compressor feature to reduce game storage footprint without impacting load times or in-game performance.",
+                                        "Expanded next-generation CPU support including Intel Series 2 Core Ultra and AMD Zen 5 with advanced power, cache, and prefetch policy controls.",
+                                        "Added Windows 11 24H2 latency-hint EPP support for autonomous system responsiveness tuning.",
+                                        "Expanded Intel platform power and ring frequency controls across supported Xeon and desktop families.",
+                                        "Resolved Apex State tracking and startup persistence issues; improved profile scaling and Apex Game Mode reliability.",
+                                        "Separated CPU Overclocking SMU hold loops from transactional MSR operations for safer concurrent execution.",
+                                        "Fixed add-on listing, gift-code generation, and referral tracking visibility in Rewards \u0026 Refer \u0026 Earn.",
+                                        "Fixed GPU Overclocking startup reapply logic for standalone GPU Overclocking owners.",
+                                        "Hardened hardware transaction gates, DPAPI recovery journaling, WHEA error guards, and atomic fail-closed rollback.",
+                                        "Keep Safe notifications now default to opt-in for a less intrusive out-of-box experience.",
+                                        "Polished toast notification feedback, preserved BAML binding contracts across UI carousels, and improved overall UI responsiveness.",
+                                        "Expanded localization coverage across all 9 supported languages."
+                                    ]
+                    },
+                    {
+                        "version":  "1.0.3",
+                        "date":  "2026-07-08",
+                        "changes":  [
+                                        "Version 1.0.3 - Fixed the bugs introduced in version 1.0.2.",
+                                        "Added Network Tuner.",
+                                        "Improved workflow.",
+                                        "Added support for additional languages, including Polish and Turkish.",
+                                        "Improved overall performance.",
+                                        "Optimized RAM usage.",
+                                        "Optimized CPU usage.",
+                                        "Enhanced system responsiveness.",
+                                        "Reduced resource consumption.",
+                                        "Improved stability."
+                                    ]
+                    },
+                    {
+                        "version":  "1.0.2",
+                        "date":  "2026-07-03",
+                        "changes":  [
+                                        "Enabled Spanish, Italian, French, and Portuguese language support (previously marked \"Soon\"), and added German and Russian — 7 languages total.",
+                                        "Fixed hundreds of missing or incomplete translations across every non-English language, including navigation, Game Booster, Server Booster, Startup Boost, Debloat, and the Priorities Tuner reference tables.",
+                                        "Added automatic detection of your Windows display language on first launch.",
+                                        "Added a restart-required notification bar after applying tweaks, with a one-click Restart button.",
+                                        "Added real Discord server-membership verification for Server Booster, with a direct Join Discord button.",
+                                        "Fixed the desktop shortcut prompt to reappear if the shortcut goes missing, and it now also adds a Start Menu entry.",
+                                        "Added a guided walkthrough tour for the Fixes tab.",
+                                        "Fixed authentication issues.",
+                                        "Fixed Power Plans Not Importing.",
+                                        "Reworked Apex Feature Priority Tuner",
+                                        "Updated Apex status and feature detection.",
+                                        "Fixed Server Booster failing to grant access.",
+                                        "Fixed Advanced Network Tweaks not working.",
+                                        "Fixed the Advanced Network tab\u0027s loading UI.",
+                                        "Improved the Upgrade to Apex UI.",
+                                        "Fixed Apex Network Tweaks.",
+                                        "Fixed switches (toggles) disappearing.",
+                                        "Improved the Apex Auto Set Affinity Tuner.",
+                                        "Added Launch Game Feature",
+                                        "Added More Games to XNRL App Library",
+                                        "More logic added to priorities tuner",
+                                        "Added a new Apex feature: Scheduler \u0026 IRQ Lab.",
+                                        "Added Scheduler and Timer tweaks for Apex.",
+                                        "Added GPU, USB, and Interrupts tools for Apex users.",
+                                        "Added Core-to-Core Latency Benchmarks.",
+                                        "Fixed Startup Boost tweaks not launching on Windows startup.",
+                                        "Fixed CPU Tuner not launching on Windows startup.",
+                                        "Fixed an issue causing random account bans.",
+                                        "Added an in-app tutorial and guide.",
+                                        "Embedded tutorial videos now redirect straight to YouTube.",
+                                        "Added a new Apex-specific Game Mode."
+                                    ]
+                    },
+                    {
+                        "version":  "1.0.1",
+                        "date":  "2026-06-30",
+                        "changes":  [
+                                        "Fixed restore point error when attempting to create a restore point.",
+                                        "Fixed restore point error occurring after applying tweaks.",
+                                        "Fixed buttons displaying \u0027Upgrade to Premium\u0027 instead of \u0027Upgrade to Apex\u0027.",
+                                        "Fixed Startup Boost progress not being counted correctly on the dashboard (0/4 Free, 0/21 Apex).",
+                                        "Fixed Server Booster save state not being preserved.",
+                                        "Fixed Apex and Extreme Profiles failing to apply.",
+                                        "Fixed Apex MSI Utility Tuner visual issues.",
+                                        "Fixed Apex Auto Affinity Tuner completion popup.",
+                                        "Improved the UI for Apex Auto Affinity Tuner.",
+                                        "Improved the UI for Apex MSI Utility Tuner.",
+                                        "Added Apex Boot Optimization system.",
+                                        "Added Apex Mode to Startup Boost.",
+                                        "Removed the Scheduled Debloat feature.",
+                                        "Fixed Startup Boost behavior and optimization process.",
+                                        "Fixed CPU Tuner not starting automatically on Windows startup.",
+                                        "Fixed remaining buttons displaying \u0027Upgrade to Premium\u0027 or \u0027Upgrade to Pro\u0027 instead of \u0027Upgrade to Apex\u0027.",
+                                        "Added warning dialogs for tweaks that require extra caution.",
+                                        "Added warning icons and descriptions for applicable tweaks.",
+                                        "Added error codes to assist with debugging.",
+                                        "Added more revert tweak options.",
+                                        "Added a Revert Tweaks UI dialog.",
+                                        "Moved BIOS tweak application to the UI thread to prevent freezing.",
+                                        "Added a warning that Shader Cache will rebuild after deletion.",
+                                        "Added Roblox Error 268 fix."
+                                    ]
+                    },
+                    {
+                        "version":  "1.0.0",
+                        "date":  "2026-06-27",
+                        "changes":  [
+                                        "Initial Release",
+                                        "Added new BIOS tweaks",
+                                        "Added CPU Tuner",
+                                        "Added Priorities Manager",
+                                        "Added Game Booster tweaks",
+                                        "Added Startup tweaks",
+                                        "Added Debloat Manager",
+                                        "Added system cleaning utilities",
+                                        "Added advanced CPU and Windows optimizations"
+                                    ]
+                    }
+                ]
 }
