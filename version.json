@@ -1,24 +1,17 @@
 {
   "schemaVersion": 2,
-  "sequence": 13,
-  "issuedAt": 1789608035695,
-  "expiresAt": 1797384035696,
+  "sequence": 12,
+  "issuedAt": 1789582324065,
+  "expiresAt": 1797358324065,
   "channel": "stable",
   "keyId": "release-p256-2026-01",
-  "version": "1.1.16",
+  "version": "1.1.18",
   "downloadUrl": "https://github.com/XNRLDownload/Releases/releases/latest/download/publish.zip",
-  "sha256": "91f05487e3b856e04e146ddc9352bf7af762792a2162c30058ecb8681101c5cf",
-  "signature": "cT/444tJgvxqZ5Uc9mOb06H+zNB4QHVUt8GagTSOTLGRFkCnS0xnJmuD6+duMdfaHcz4zgxpFDTJfhCKIxhrDg==",
-  "signatureV2": "qu0bcmjSx17AggJrjJtbZ+a+7GvRnlQY/zmx0boFBEjUtFKc3FMx2jHc1Swj/dRPmrI0sKi0xOmPvLjVaAQAoA==",
-  "changelog": "Public channel temporarily reverted while v1.1.17 and v1.1.18 defects are investigated.",
+  "sha256": "1e57f47a5ab4f46a2b1332c232be737ddbd8665ec7691eb84fdfcc775c125bb9",
+  "signature": "lBdBEAVYfmdYNgaB9xB6k88bwi1dUeLyekJAxoeMsLJUOWA/AkjT+nTkanJguWKLxPqlVt8akfakxCbZF9q/XQ==",
+  "signatureV2": "8d7/xOOXepo9+pzXvLpuYlywG4ZIGsBiEvGdqSELN5DrVkC9yBa3LVDxx+sN+3KfiiFD4FBYgiEb8/UxYPVg5Q==",
+  "changelog": "Protected updater compatibility and secure Setup recovery",
   "history": [
-    {
-      "version": "1.1.16-rollback",
-      "date": "2026-09-17",
-      "changes": [
-        "Public update channel temporarily reverted to v1.1.16 while the newer release defects are investigated."
-      ]
-    },
     {
       "version": "1.1.18",
       "date": "2026-09-16",
