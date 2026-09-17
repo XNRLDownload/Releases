@@ -6,7 +6,7 @@
   "channel": "stable",
   "keyId": "release-p256-2026-01",
   "version": "1.1.16",
-  "downloadUrl": "https://github.com/XNRLDownload/Releases/releases/download/v1.1.16/publish.zip",
+  "downloadUrl": "https://github.com/XNRLDownload/Releases/releases/latest/download/publish.zip",
   "sha256": "91f05487e3b856e04e146ddc9352bf7af762792a2162c30058ecb8681101c5cf",
   "signature": "1Ufov34bBtdouRzi1WFXl+iM7rfQopBRynTtQ7Aj+QVGIlIEfZSuNmNZEZRTfYBmUmOuImV1jlR6eSnHN3WUEw==",
   "signatureV2": "+wvKUVgC/DYC8FDj0s4q1SmZWfXP+IANbD0F47ZRbpPJWMreGX2eTtit0yhbpkNIJrGogH2mbWk3ihggU5HOcg==",
